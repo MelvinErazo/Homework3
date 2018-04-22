@@ -1,0 +1,9 @@
+//Ejercicio3_Calcular_Corriente
+
+volt1 = input('Ingresa el voltaje V: \n')
+resist1 = input ('Ingresa la resistencia en valor de KOhm:  \n')
+
+corriente = float (volt1) / float (resist1)
+resultado = "La corriente total es: " + repr(corriente) + " Amperios"
+
+print(resultado)
